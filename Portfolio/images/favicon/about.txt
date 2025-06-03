@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Cormorant Upright
+- Font Author: undefined
+- Font Source: https://fonts.gstatic.com/s/cormorantupright/v18/VuJrdM3I2Y35poFONtLdafkUCHw1y2vVjjTkeMnz.ttf
+- Font License: undefined)
