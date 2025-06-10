@@ -149,7 +149,10 @@ body {
     margin-top: 2rem;
     flex-wrap: wrap; /* ✅ Prevents overflow on small screens */
 }
-
+.hero-buttons .btn {
+    min-width: 120px;
+    text-align: center;
+}
 /* Buttons */
 .btn {
     display: inline-block;
