@@ -457,7 +457,7 @@ section {
     }
     
       .nav-links a.active {
-        color: var(--primary-color); /* ✅ Highlight active link */
+        color: var(--primary-color);
         font-weight: 600;
       }
     }
@@ -505,7 +505,12 @@ section {
     .hero-buttons {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space between buttons */
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    
     }
 
     .secondary-btn {
