@@ -14,7 +14,7 @@
     <header class="header">
         <nav class="nav-container">
             <div class="logo">JC</div>
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -23,7 +23,7 @@
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">
+            <div class="hamburger" id="hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -246,7 +246,7 @@
                         <a href="https://behance.net/jayrajschampavat" target="_blank" rel="noopener" aria-label="Behance" class="mx-2"><i class="fab fa-behance fa-2x"></i></a>
                         <a href="https://dribbble.com/Jayrajsinh359" target="_blank" rel="noopener" aria-label="dribbble" class="mx-2"><i class="fab fa-dribbble fa-2x"></i></a>
                         <a href="https://instagram.com/jayrajsinhchampavat_" target="_blank" rel="noopener" aria-label="Instagram" class="mx-2"><i class="fab fa-instagram fa-2x"></i></a>
-                        <a href="https://facebook.com/Jayrajsinh-Champavat.18" target="_blank" rel="noopener" aria-label="Facebook" class="mx-2"><i class="fab fa-facebook fa-2x"></i></a>
+                       
                       </div>
                 </div>
                 <div class="service-card">
@@ -265,10 +265,18 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Jayrajsinh Champavat. All Rights Reserved.</p>
+            <p>&copy; 2025 Jayrajsinh Champavat. All Rights Reserved.</p>
         </div>
     </footer>
-
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+    
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('open');
+        });
+    </script> 
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.1/lottie.min.js"></script>
 <script>
