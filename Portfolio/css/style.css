@@ -141,6 +141,14 @@ body {
     margin-bottom: 2rem;
     color: var(--light-text);
 }
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space between buttons */
+    margin-top: 2rem;
+    flex-wrap: wrap; /* ✅ Prevents overflow on small screens */
+}
 
 /* Buttons */
 .btn {
@@ -503,14 +511,9 @@ section {
 
 @media (max-width: 480px) {
     .hero-buttons {
-        display: flex;
+        align-items: center;
         flex-direction: column;
-        justify-content: center;
-    align-items: center;
-    gap: 1rem; /* Space between buttons */
-    margin-top: 2rem;
-    flex-wrap: wrap;
-    
+        gap: 1rem;
     }
 
     .secondary-btn {
