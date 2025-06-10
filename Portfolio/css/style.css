@@ -515,17 +515,6 @@ section {
     .nav-container {
         padding: 1rem;
     }
-    .hero h1 {
-        font-size: 2rem; /* Force slightly smaller on narrow screens */
-    }
-
-    .hero-content {
-        padding-top: 2rem;
-    }
-
-    .hero-grid {
-        display: block;
-    }
 } 
 
 /* Responsive for hero section animation*/
