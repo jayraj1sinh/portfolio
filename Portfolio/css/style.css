@@ -743,9 +743,9 @@ section {
 
 .about-image-card {
   background: #232323;
-  border-radius: 14px;
+  border-radius: 10px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.12);
-  padding: 18px;
+  padding: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -754,8 +754,8 @@ section {
 }
 
 .about-image-card img {
-  width: 220px;
-  height: 220px;
+  width: 100%;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
   display: block;
@@ -880,14 +880,17 @@ section {
   border-radius: 5px;
   font-family: inherit;
 }
+
 .contact-form textarea {
   height: 120px;
   resize: vertical;
 }
+
 .contact-form button {
   width: fit-content;
   align-self: flex-end;
 }
+
 @media (max-width: 900px) {
   .about-contact-container {
     flex-direction: column;
