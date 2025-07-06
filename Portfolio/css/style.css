@@ -175,10 +175,13 @@ body {
 .btn {
     display: inline-block;
     padding: 0.8rem 2rem;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1rem;
     transition: all 0.3s ease;
+    text-align: center;
+    min-width: 140px;
 }
 
 .primary-btn {
@@ -195,6 +198,7 @@ body {
     color: var(--primary-color);
     border: 2px solid var(--primary-color);
     margin-left: 1rem;
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
 }
 
 .secondary-btn:hover {
@@ -239,6 +243,7 @@ section {
   justify-content: center;
   min-width: 260px;
   max-width: 320px;
+  transition: transform 0.3s ease;
 }
 
 .about-image-card img {
@@ -247,6 +252,8 @@ section {
   object-fit: cover;
   border-radius: 10px;
   display: block;
+  transition: transform 0.3s ease;
+
 }
 
 .about-details {
@@ -657,14 +664,19 @@ section {
 
 @media (max-width: 480px) {
     .hero-buttons {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
+    max-width: 100%;
+    padding: 0 1rem;
+    gap: 1rem;
+}
 
-    .secondary-btn {
-        margin-left: 0;
-    }
+.btn {
+    padding: 0.9rem 1.2rem;
+    font-size: 0.95rem;
+}
+
+.secondary-btn {
+    margin-left: 0;
+}
 
     .nav-container {
         padding: 1rem;
