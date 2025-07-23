@@ -276,6 +276,10 @@
     const form = e.target;
     const formData = new FormData(form); // This automatically gets all form inputs
 
+      for (let [key, value] of formData.entries()) {
+    console.log(key, value);
+  } 
+
     fetch(scriptURL, {
       method: 'POST',
       body: formData
